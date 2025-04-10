@@ -11,10 +11,12 @@ import {
 } from "./pages/Services/Index";
 import ContactForm from "./components/form/ContactForm";
 
+const basename = process.env.NODE_ENV === "production" ? "/WeGo4IT" : "/";
+
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={basename}>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
