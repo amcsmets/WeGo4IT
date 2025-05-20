@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WeGo4IT/static/css/main.26922a18.css",
-    "main.js": "/WeGo4IT/static/js/main.56dc498f.js",
+    "main.js": "/WeGo4IT/static/js/main.8db370e9.js",
     "static/js/453.21f480f4.chunk.js": "/WeGo4IT/static/js/453.21f480f4.chunk.js",
     "static/media/DSCF2139.jpg": "/WeGo4IT/static/media/DSCF2139.82317adfa4ff6cc8d6d3.jpg",
     "static/media/unifiedpostIntegrationPartner.jpg": "/WeGo4IT/static/media/unifiedpostIntegrationPartner.4f2c681f67966d3c3626.jpg",
@@ -33,11 +33,11 @@
     "index.html": "/WeGo4IT/index.html",
     "static/media/arrow-sm-down-grey.svg": "/WeGo4IT/static/media/arrow-sm-down-grey.c65941aff8963cf314b72ad1bbd4d6ee.svg",
     "main.26922a18.css.map": "/WeGo4IT/static/css/main.26922a18.css.map",
-    "main.56dc498f.js.map": "/WeGo4IT/static/js/main.56dc498f.js.map",
+    "main.8db370e9.js.map": "/WeGo4IT/static/js/main.8db370e9.js.map",
     "453.21f480f4.chunk.js.map": "/WeGo4IT/static/js/453.21f480f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26922a18.css",
-    "static/js/main.56dc498f.js"
+    "static/js/main.8db370e9.js"
   ]
 }
