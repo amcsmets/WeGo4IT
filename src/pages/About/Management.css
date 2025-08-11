@@ -1,0 +1,225 @@
+.header-section {
+  background-image: url('../../assets/images/background_service.jpg');
+  background-size: cover;
+  color: white;
+  padding: 40px 20px; /* Adjust padding for responsiveness */
+  text-align: left;
+  padding-left: 5%; /* Use percentage for flexibility */
+  padding-top: 150px;
+}
+
+.header-description {
+  margin: 15px 0;
+}
+
+.instructor-info {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  margin-top: 10px;
+  padding-left: 5%; /* Use percentage for flexibility */
+  height: auto; /* Allow height to adjust */
+}
+
+.instructor-avatar {
+  width: 100%; /* Make image responsive */
+  max-width: 450px; /* Set max width */
+  height: auto;
+  margin-right: 10px;
+}
+
+.instructor-title {
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+.board-member-title {
+  text-align: center;
+}
+
+.board-member {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  align-items: center;
+}
+
+.member-card {
+  width: 100%; /* Make card responsive */
+  max-width: 1280px; /* Set max width */
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.member-card-content {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  align-items: center;
+  padding: 20px;
+  gap: 20px; /* Reduce gap for smaller screens */
+  cursor: pointer;
+}
+
+.member-card-img {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.member-avatar {
+  width: 100%; /* Make image responsive */
+  max-width: 180px; /* Set max width */
+  height: auto;
+}
+
+.member-card-info {
+  flex: 1;
+}
+
+.member-card-info h4 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333333;
+  font-weight: bold;
+}
+
+.member-role {
+  color: #888888;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.contact-description {
+  font-size: 0.9em;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.more-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 0.9em;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.more-button:hover {
+  background-color: #0056b3;
+}
+
+.services-section {
+  display: block;
+  margin: 50px auto;
+  padding: 45px 20px;
+  width: 100%; /* Make section responsive */
+  max-width: 1280px; /* Set max width */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ceo-info {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ceo-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.ceo-title {
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.service-card {
+  width: 100%; /* Make card responsive */
+  max-width: 350px; /* Set max width */
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h4 {
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header-section {
+      padding-left: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .instructor-info,
+  .services-section {
+      padding-left: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .member-card-content {
+      gap: 20px; /* Adjust gap for smaller screens */
+  }
+
+  .social-icons {
+      font-size: 24px; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-section {
+      padding-top: 100px; /* Adjust padding for smaller screens */
+  }
+
+  .instructor-avatar,
+  .member-avatar {
+      max-width: 100%; /* Ensure images fit smaller screens */
+  }
+
+  .service-card {
+      max-width: 100%; /* Ensure cards fit smaller screens */
+  }
+}

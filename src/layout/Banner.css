@@ -1,0 +1,39 @@
+.banner-buttons {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center; /* center items horizontally */
+  gap: 1rem; /* Space between button and image */
+}
+
+.partner-with-us-image {
+  display: block;
+  margin: 0 auto;
+  width: 180px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.banner-buttons-explore {
+    background-color: var(--primary-color-800);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    /* font-family: var(--font-roboto); */
+    font-size: 16px;
+    margin-top: 5px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 180px; /* Adjust as needed */
+}
+
+    .left-panel {
+      position: fixed; /* stays on the screen when scrolling */
+      top: 50px;       /* distance from top */
+      left: 20px;      /* distance from left edge */
+      display: flex;
+      flex-direction: column; /* stack vertically */
+      align-items: center;    /* center items horizontally */
+      gap: 10px;               /* space between button & image */
+    }

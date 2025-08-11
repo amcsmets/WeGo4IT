@@ -1,0 +1,118 @@
+.form-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-title {
+    font-family: var(--font-roboto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: .01em;
+    color: #19226d;
+}
+
+.form-subtitle {
+    color: #304094;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: var(--font-roboto);
+}
+
+.form-description {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: var(--font-roboto);
+}
+
+.form-input {
+    width: 100%;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 32px;
+    font-size: 16px;
+    padding: 8px 24px;
+    color: #000000;
+    font-family: var(--font-roboto);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    cursor: default;
+}
+
+.textarea-input {
+    height: 80px;
+}
+
+.checkbox-container {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.checkbox-label {
+    margin-left: 8px;
+}
+
+.button-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.submit-button {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 20px;
+    color: #fff;
+    font-family: var(--font-roboto);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-right: 84px;
+    position: relative;
+    background: #F37021;
+    border-radius: 80px;
+    border: 0;
+    outline: none;
+    pointer-events: auto;
+}
+
+form label {
+    font-family: var(--font-roboto);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    display: block;
+    padding-top: 12px;
+    padding-left: 12px;
+    text-align: left;
+}
+
+.checkbox-label {
+    color: #000000;
+    font-family: var(--font-roboto);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    position: relative;
+    padding: 4px 0 4px 10px;
+}
+
+.form-checkbox {
+    display: flex;
+}
+
+.text-highlight {
+    text-decoration-line: underline;
+    color: #F37021;
+}

@@ -1,0 +1,66 @@
+/* src/styles.css */
+
+:root {
+  /* --primary-color-900: rgb(0, 51, 102); */
+  /* --primary-text-color-900: rgb(0, 67, 91); */
+  --color-title-v1: #3465a4;
+  --color-text-v1: #000000;
+  --color-background-v1: #a6caec;
+  --color-background-v2: #bfbfbf;
+  --color-background-v3: #fccb62;
+
+  --primary-color-800: rgb(0, 116, 232);
+  --primary-color-600: #1885e2;
+  --secondary-color-900: white;
+  --secondary-color-800: #f4f4f4;
+  --secondary-color-700: #ccc;
+  --secondary-color-600: #ddd;
+  --secondary-color-500: #e6f7ff;
+  --secondary-color-400: rgb(230, 245, 255);
+  --active-color-900: hsl(27, 96%, 50%);
+  --active-color-800: #fd7e14;
+
+  --font-family: 'Arial', sans-serif;
+  --font-roboto: Roboto;
+  --font-size: 18px;
+  --font-size-large: 24px;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+  --font-tahoma: 'Tahoma';
+}
+
+body {
+  font-family: var(--font-tahoma);
+  font-size: var(--font-size);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: var(--font-size-large);
+  margin-bottom: var(--spacing-medium);
+}
+
+.color-primary-900 {
+  color: var(--primary-color-900);
+}
+
+.color-red {
+  color: red;
+  font-style: italic;
+}
+
+.color-bg-v1 {
+  background-color: var(--color-background-v1);
+}
+
+.color-bg-v2 {
+  background-color: var(--color-background-v2);
+  color: var(--color-title-v1);
+}
+
+.color-bg-3 {
+  background-color: var(--color-background-v3);
+}
