@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/WeGo4IT/static/css/main.26922a18.css",
-    "main.js": "/WeGo4IT/static/js/main.8db370e9.js",
+    "main.css": "/WeGo4IT/static/css/main.50715c75.css",
+    "main.js": "/WeGo4IT/static/js/main.e1d68119.js",
     "static/js/453.21f480f4.chunk.js": "/WeGo4IT/static/js/453.21f480f4.chunk.js",
     "static/media/DSCF2139.jpg": "/WeGo4IT/static/media/DSCF2139.82317adfa4ff6cc8d6d3.jpg",
     "static/media/unifiedpostIntegrationPartner.jpg": "/WeGo4IT/static/media/unifiedpostIntegrationPartner.4f2c681f67966d3c3626.jpg",
     "static/media/OFFSHORE_DEVELOPMENT.png": "/WeGo4IT/static/media/OFFSHORE_DEVELOPMENT.90f83f4f4ffff376b4f5.png",
     "static/media/background_service.jpg": "/WeGo4IT/static/media/background_service.a9ea94ca368cb8762a5d.jpg",
+    "static/media/ctimap.png": "/WeGo4IT/static/media/ctimap.b7909c01385731436abe.png",
     "static/media/OUTSOURCING_SERVICE.png": "/WeGo4IT/static/media/OUTSOURCING_SERVICE.266939dd12c958d50704.png",
     "static/media/ODC.png": "/WeGo4IT/static/media/ODC.b46d0b9e9b2d702171d5.png",
     "static/media/IT_TEAM_EXTENSION.png": "/WeGo4IT/static/media/IT_TEAM_EXTENSION.9febfb29b151f9829557.png",
+    "static/media/ctinsights.png": "/WeGo4IT/static/media/ctinsights.1df062f94307f6fcdb02.png",
     "static/media/Vietnambackground.jpg": "/WeGo4IT/static/media/Vietnambackground.4b87d045d8e8084363b4.jpg",
     "static/media/itTeamExtension.png": "/WeGo4IT/static/media/itTeamExtension.432332a45678c6805452.png",
     "static/media/WG.jpg": "/WeGo4IT/static/media/WG.32d18bb844cfdfb9269d.jpg",
     "static/media/building-location.png": "/WeGo4IT/static/media/building-location.76093ece62144446cd60.png",
     "static/media/whatisagile.jpg": "/WeGo4IT/static/media/whatisagile.08c9250e4f7618045cbd.jpg",
     "static/media/ALBERT.jpg": "/WeGo4IT/static/media/ALBERT.3ac6b0b3fc946a286d9e.jpg",
+    "static/media/partnerwithus.png": "/WeGo4IT/static/media/partnerwithus.b462ceb82503fdb19f68.png",
     "static/media/methodologies.jpg": "/WeGo4IT/static/media/methodologies.56c0e3c7ffe3f627b74f.jpg",
     "static/media/UP_Resources_2019.png": "/WeGo4IT/static/media/UP_Resources_2019.cefb1d3e90bb79c1018c.png",
     "static/media/trangan.jpg": "/WeGo4IT/static/media/trangan.18751fe32cd791664a92.jpg",
@@ -32,12 +35,12 @@
     "static/media/consultancy-black.svg": "/WeGo4IT/static/media/consultancy-black.48fd6effc45e82c5e2b61d67a6c0b1bb.svg",
     "index.html": "/WeGo4IT/index.html",
     "static/media/arrow-sm-down-grey.svg": "/WeGo4IT/static/media/arrow-sm-down-grey.c65941aff8963cf314b72ad1bbd4d6ee.svg",
-    "main.26922a18.css.map": "/WeGo4IT/static/css/main.26922a18.css.map",
-    "main.8db370e9.js.map": "/WeGo4IT/static/js/main.8db370e9.js.map",
+    "main.50715c75.css.map": "/WeGo4IT/static/css/main.50715c75.css.map",
+    "main.e1d68119.js.map": "/WeGo4IT/static/js/main.e1d68119.js.map",
     "453.21f480f4.chunk.js.map": "/WeGo4IT/static/js/453.21f480f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26922a18.css",
-    "static/js/main.8db370e9.js"
+    "static/css/main.50715c75.css",
+    "static/js/main.e1d68119.js"
   ]
 }
